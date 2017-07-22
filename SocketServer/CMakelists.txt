@@ -1,0 +1,2 @@
+add_executable(SocketServer Server.cpp)
+target_link_libraries(SocketServer Socket)
