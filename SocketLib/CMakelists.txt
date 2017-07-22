@@ -1,0 +1,3 @@
+add_library(Socket SHARED Socket.cpp SocketClient.cpp SocketServer.cpp)
+
+target_link_libraries(Socket ws2_32.lib)
